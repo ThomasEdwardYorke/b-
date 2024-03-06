@@ -36,8 +36,8 @@ app.add_middleware(
 )
 
 # Gmail認証情報（適切な値に置き換えてください）
-SMTP_USER = "kosukekunii4@gmail.com"
-SMTP_PASSWORD = "spdigoeovzfuvuur"
+SMTP_USER = "****@gmail.com"
+SMTP_PASSWORD = "16桁のアプリパスワード"
 
 class EmailData(BaseModel):
     user_id: int
